@@ -1,0 +1,5 @@
+print("Olá, mundo!")
+cidade = input("Qual a sua cidade: ")
+print("Você digitou", cidade)
+signo = input("Qual o seu signo: ")
+print("Você digitou", signo)
