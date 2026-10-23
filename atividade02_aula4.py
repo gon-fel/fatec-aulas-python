@@ -1,30 +1,27 @@
-"""Cálculo do Perímetro de um Terreno Retangular
+# ==============================================================================
+# FATEC Taquaritinga - ADS | Lógica de Programação
+# Aula 4 - Atividade 2: Perímetro de Terreno Retangular (Precedência de Operadores)
+# ==============================================================================
+# Enunciado:
+# 1. Peça a medida da largura do terreno (inteiro).
+# 2. Peça a medida do comprimento do terreno (inteiro).
+# 3. Calcule o perímetro aplicando a fórmula do retângulo.
+# 4. Exiba o resultado com saída formatada.
+# ==============================================================================
 
-1. Entrada de Dados:
-Peça a medida da largura do terreno (variável largura - número inteiro).
+# 1. ENTRADA DE DADOS:
+print("\n--- CÁLCULO DO PERÍMETRO DE UM TERRENO RETANGULAR ---")
 
-Peça a medida do comprimento do terreno (variável comprimento - número inteiro).
-
-2. Processamento (Cálculo):
-
-Como o retângulo tem 4 lados (dois de largura e dois de comprimento), calcule o perímetro usando a fórmula:
-
-perimetro = 2*largura + 2*comprimento
-3. Saída de Dados:
-
-Mostre na tela o valor final do perímetro calculado.
-"""
-
-# 1. Entrada de Dados
-print("\n--- CÁLCULO DO PERÍMETRO DE UM TERRENO RETANGULAR ---") # Inseri o "\n" no ínicio desta linha para a visualização ser melhor no terminal.
 largura = int(input("Informe a largura do terreno: "))
 comprimento = int(input("Informe o comprimento do terreno: "))
 
-# 2. Processamento dos Dados
-#perimetro = 2 * (largura + comprimento) # Achei melhor realizar o cálculo dessa forma para garantir a ordem de precedência. 
-perimetro = 2 * largura + 2 * comprimento # Depois observei que a fórmula apresentada já respeita a ordem de precedência rsrs.
+# 2. PROCESSAMENTO ARITMÉTICO:
+# Mecânica de precedência:
+# Opção A: 2 * largura + 2 * comprimento (2 multiplicações precedem 1 soma)
+# Opção B: 2 * (largura + comprimento)   (parênteses forçam a soma antes de 1 multiplicação)
+perimetro = 2 * (largura + comprimento)
 
-# 3. Exibição dos Resultados
+# 3. SAÍDA FORMATADA:
 print("\n" + "=" * 30)
-print(f"O perimetro do terreno retangular é: {perimetro}")
-print("=" * 30)
+print(f"O perímetro do terreno retangular é: {perimetro}")
+print("=" * 30 + "\n")
