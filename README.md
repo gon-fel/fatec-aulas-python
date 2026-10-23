@@ -10,15 +10,21 @@ Repositório dedicado ao armazenamento, versionamento e documentação dos algor
 | [`atividade01_aula3.py`](./atividade01_aula3.py) | Casting e Interpolação | Conversão de tipo (`int()`), subtração e f-strings |
 | [`atividade02_aula3.py`](./atividade02_aula3.py) | Formulário de Cadastro | Escape (`\n`), replicação de caracteres (`*`) e layout de console |
 | [`atividade03_aula3.py`](./atividade03_aula3.py) | Controle de Estoque | Fluxo I/O completo, processamento aritmético e consistência de variáveis |
-
----
+| [`atividade04_aula3.py`](./atividade04_aula3.py) | Controle de Empréstimo | Desvio condicional (`if/else`) e operadores relacionais (`>=`) |
+| [`atividade01_aula4.py`](./atividade01_aula4.py) | Área de Retângulo | Operadores aritméticos de multiplicação binária |
+| [`atividade02_aula4.py`](./atividade02_aula4.py) | Perímetro de Terreno | Precedência de operadores aritméticos e uso de parênteses |
+| [`atividade03_aula4.py`](./atividade03_aula4.py) | Média Aritmética | Divisão em ponto flutuante (`float`) e formatação (`:.2f`) |
 
 ## Como Executar os Scripts
 
-Certifique-se de ter o Python 3 instalado no sistema. No terminal, execute:
+Certifique-se de ter o Python 3 instalado no sistema. No terminal, execute o script desejado:
 
 ```bash
 python aula1.py
 python atividade01_aula3.py
 python atividade02_aula3.py
 python atividade03_aula3.py
+python atividade04_aula3.py
+python atividade01_aula4.py
+python atividade02_aula4.py
+python atividade03_aula4.py
