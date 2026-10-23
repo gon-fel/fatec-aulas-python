@@ -19,4 +19,7 @@ Certifique-se de ter o Python 3 instalado no sistema. No terminal, execute:
 
 ```bash
 python aula1.py
+atividade01_aula3.py
+atividade02_aula03.py
+ativvidade03_aula03.py
 ```
