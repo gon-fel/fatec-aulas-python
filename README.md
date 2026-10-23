@@ -17,10 +17,6 @@ Repositório dedicado ao armazenamento, versionamento e documentação dos algor
 
 Certifique-se de ter o Python 3 instalado no sistema. No terminal, execute:
 
-## Como Executar os Scripts
-
-Certifique-se de ter o Python 3 instalado no sistema. No terminal, execute o script desejado:
-
 ```bash
 python aula1.py
 python atividade01_aula3.py
