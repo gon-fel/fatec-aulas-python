@@ -14,6 +14,11 @@ Repositório dedicado ao armazenamento, versionamento e documentação dos algor
 | [`atividade01_aula4.py`](./atividade01_aula4.py) | Área de Retângulo | Operadores aritméticos de multiplicação binária |
 | [`atividade02_aula4.py`](./atividade02_aula4.py) | Perímetro de Terreno | Precedência de operadores aritméticos e uso de parênteses |
 | [`atividade03_aula4.py`](./atividade03_aula4.py) | Média Aritmética | Divisão em ponto flutuante (`float`) e formatação (`:.2f`) |
+| [`atividade04_aula4.py`](./atividade04_aula4.py) | Consumo e Custos | Operações aritméticas compostas e formatação monetária |
+| [`atividade01_aula6.py`](./atividade01_aula6.py) | Consumo Médio de Combustível | Razão escalar, casting (`int()`) e relatório de consumo |
+| [`atividade02_aula6.py`](./atividade02_aula6.py) | Variação Térmica | Subtração aritmética simples e formatação meteorológica |
+| [`atividade03_aula6.py`](./atividade03_aula6.py) | Demonstrativo Salarial Semanal | Composição de horas normais e extras com cálculo de proventos |
+| [`atividade04_aula6.py`](./atividade04_aula6.py) | Verificação de Maioridade | Desvio condicional unário/binário (`if/else`) com operador relacional |
 
 ## Como Executar os Scripts
 
@@ -28,3 +33,8 @@ python atividade04_aula3.py
 python atividade01_aula4.py
 python atividade02_aula4.py
 python atividade03_aula4.py
+python atividade04_aula4.py
+python atividade01_aula6.py
+python atividade02_aula6.py
+python atividade03_aula6.py
+python atividade04_aula6.py
