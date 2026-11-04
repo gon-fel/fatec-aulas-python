@@ -2,39 +2,56 @@
 
 Repositório dedicado ao armazenamento, versionamento e documentação dos algoritmos desenvolvidos durante as aulas de Análise e Desenvolvimento de Sistemas (ADS).
 
-## Índice de Conteúdo
+## Organização
 
-| Arquivo | Tópico Abordado | Conceitos-Chave |
-| :--- | :--- | :--- |
-| [`aula1.py`](./aula1.py) | Entrada/Saída Padrão e Variáveis | `print()`, `input()`, strings (`str`) e alocação de memória |
-| [`atividade01_aula3.py`](./atividade01_aula3.py) | Casting e Interpolação | Conversão de tipo (`int()`), subtração e f-strings |
-| [`atividade02_aula3.py`](./atividade02_aula3.py) | Formulário de Cadastro | Escape (`\n`), replicação de caracteres (`*`) e layout de console |
-| [`atividade03_aula3.py`](./atividade03_aula3.py) | Controle de Estoque | Fluxo I/O completo, processamento aritmético e consistência de variáveis |
-| [`atividade04_aula3.py`](./atividade04_aula3.py) | Controle de Empréstimo | Desvio condicional (`if/else`) e operadores relacionais (`>=`) |
-| [`atividade01_aula4.py`](./atividade01_aula4.py) | Área de Retângulo | Operadores aritméticos de multiplicação binária |
-| [`atividade02_aula4.py`](./atividade02_aula4.py) | Perímetro de Terreno | Precedência de operadores aritméticos e uso de parênteses |
-| [`atividade03_aula4.py`](./atividade03_aula4.py) | Média Aritmética | Divisão em ponto flutuante (`float`) e formatação (`:.2f`) |
-| [`atividade04_aula4.py`](./atividade04_aula4.py) | Consumo e Custos | Operações aritméticas compostas e formatação monetária |
-| [`atividade01_aula6.py`](./atividade01_aula6.py) | Consumo Médio de Combustível | Razão escalar, casting (`int()`) e relatório de consumo |
-| [`atividade02_aula6.py`](./atividade02_aula6.py) | Variação Térmica | Subtração aritmética simples e formatação meteorológica |
-| [`atividade03_aula6.py`](./atividade03_aula6.py) | Demonstrativo Salarial Semanal | Composição de horas normais e extras com cálculo de proventos |
-| [`atividade04_aula6.py`](./atividade04_aula6.py) | Verificação de Maioridade | Desvio condicional unário/binário (`if/else`) com operador relacional |
+Os scripts estão agrupados em pastas pelo número da aula:
+
+### [Aula 1](./aula1/)
+- [aula1.py](./aula1/aula1.py)
+
+### [Aula 3](./aula3/)
+- [atividade01_aula3.py](./aula3/atividade01_aula3.py)
+- [atividade02_aula3.py](./aula3/atividade02_aula3.py)
+- [atividade03_aula3.py](./aula3/atividade03_aula3.py)
+- [atividade04_aula3.py](./aula3/atividade04_aula3.py)
+
+### [Aula 4](./aula4/)
+- [atividade01_aula4.py](./aula4/atividade01_aula4.py)
+- [atividade02_aula4.py](./aula4/atividade02_aula4.py)
+- [atividade03_aula4.py](./aula4/atividade03_aula4.py)
+
+### [Aula 6](./aula6/)
+- [atividade01_aula6.py](./aula6/atividade01_aula6.py)
+- [atividade02_aula6.py](./aula6/atividade02_aula6.py)
+- [atividade03_aula6.py](./aula6/atividade03_aula6.py)
+- [atividade04_aula6.py](./aula6/atividade04_aula6.py)
+
+### [Aula 7](./aula7/)
+- [atividade01_aula7.py](./aula7/atividade01_aula7.py)
+- [atividade02_aula07.py](./aula7/atividade02_aula07.py)
+- [atividade03_aula7.py](./aula7/atividade03_aula7.py)
+- [atividade04_aula7.py](./aula7/atividade04_aula7.py)
+- [atividade05_aula7.py](./aula7/atividade05_aula7.py)
+- [atividade06_aula7.py](./aula7/atividade06_aula7.py)
+
+### [Aula 12](./aula12/)
+- [atividade01_aula12.py](./aula12/atividade01_aula12.py)
+- [atividade02_aula12.py](./aula12/atividade02_aula12.py)
+- [atividade03_aula12.py](./aula12/atividade03_aula12.py)
+- [atividade04_aula12.py](./aula12/atividade04_aula12.py)
+- [atividade05_aula12.py](./aula12/atividade05_aula12.py)
+- [atividade06_aula12.py](./aula12/atividade06_aula12.py)
+- [atividade07_aula12.py](./aula12/atividade07_aula12.py)
 
 ## Como Executar os Scripts
 
-Certifique-se de ter o Python 3 instalado no sistema. No terminal, execute o script desejado:
+Certifique-se de ter o Python 3 instalado. Execute no terminal o script da aula desejada, por exemplo:
 
 ```bash
-python aula1.py
-python atividade01_aula3.py
-python atividade02_aula3.py
-python atividade03_aula3.py
-python atividade04_aula3.py
-python atividade01_aula4.py
-python atividade02_aula4.py
-python atividade03_aula4.py
-python atividade04_aula4.py
-python atividade01_aula6.py
-python atividade02_aula6.py
-python atividade03_aula6.py
-python atividade04_aula6.py
+python aula1/aula1.py
+python aula3/atividade01_aula3.py
+python aula4/atividade01_aula4.py
+python aula6/atividade01_aula6.py
+python aula7/atividade01_aula7.py
+python aula12/atividade01_aula12.py
+```
