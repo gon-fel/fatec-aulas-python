@@ -1,6 +1,6 @@
 # Algoritmos e Lógica de Programação — FATEC Taquaritinga
 
-Repositório dedicado ao armazenamento, versionamento e documentação dos algoritmos desenvolvidos durante as aulas de Análise e Desenvolvimento de Sistemas (ADS).
+Repositório dedicado ao armazenamento, versionamento e documentação dos algoritmos desenvolvidos durante as aulas de "Algoritmo e Lógica de Programação" no curso de Análise e Desenvolvimento de Sistemas (ADS).
 
 ## Organização
 
