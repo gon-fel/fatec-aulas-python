@@ -1,21 +1,16 @@
-# ==============================================================================
-# FATEC Taquaritinga - ADS | Lógica de Programação
-# Aula 12 - Atividade 3: Cálculo do Raio de uma Tampa Circular
-# ==============================================================================
+# ==============================================================================================
+# Atividade 03 - Aula 12: Divisão com pi usando a biblioteca math.
+# Descrição: Crie um programa que solicite ao operador a área da tampa metálica (m²). Utilizando a constante math.pi e a função math.sqrt() do módulo math, calcule o raio correspondente da peça e exiba o resultado.
+# ===============================================================================================
 
-# 1. IMPORTAÇÃO DA BIBLIOTECA:
-# Importa math para utilizar a constante pi e a função de raiz quadrada.
 import math
 
-# 2. ENTRADA DE DADOS:
-# Lê a área da tampa circular em metros quadrados.
+# 1. Entrada dos Dados:
 area = float(input("Informe o valor da área da tampa metálica em (m²): "))
 
-# 3. PROCESSAMENTO MATEMÁTICO:
-# Isola o raio na fórmula da área do círculo: raio = raiz(area / pi).
+# 2. Processamento: 
 divisao = area / math.pi
 raio = math.sqrt(divisao)
 
-# 4. SAÍDA FORMATADA:
-# Exibe o raio calculado com duas casas decimais.
+# 3. Saída: 
 print(f"O valor do raio é: {raio:.2f}")

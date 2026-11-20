@@ -1,18 +1,14 @@
-# ==============================================================================
-# FATEC Taquaritinga - ADS | Lógica de Programação
-# Aula 7 - Atividade 6: Tarifação de Energia e Nível de Alerta
-# ==============================================================================
+# ==========================================
+# Atividade 06 - Aula 07: Tarifação de Energia e Alerta
+# Descrição: Calcula tarifa e nível de alerta com base no consumo mensal em kWh.
+# ==========================================
 
-# 1. APRESENTAÇÃO DO EXERCÍCIO:
-# Exibe o título da atividade no terminal.
 print("-" * 30, "\n TARIFAÇÃO DE ENERGIA E NÍVEL DE ALERTA\n", "-" * 30)
 
-# 2. ENTRADA DE DADOS:
-# Lê o consumo mensal de energia em quilowatts-hora.
+# 1. Entrada de dados
 consumo_kwh = int(input("Digite o consumo mensal (Kwh): "))
 
-# 3. PROCESSAMENTO CONDICIONAL:
-# Define a tarifa, o nível e a mensagem de alerta para a faixa de consumo.
+# 2. Estrutura Condicional para tarifação e níveis de alerta
 if consumo_kwh > 300:
     tarifa = 3
     nivel = 3
@@ -26,6 +22,5 @@ else:
     nivel = 1
     alerta = "Alerta Verde: Consumo econômico"
 
-# 4. SAÍDA DE DADOS:
-# Exibe a tarifa e o nível de alerta definidos.
+# 3. Saída de dados
 print(f"Tarifa R$ {tarifa} por Kwh.\nNível de Alerta: {nivel}\n{alerta}")

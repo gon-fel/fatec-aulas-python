@@ -1,23 +1,17 @@
-# ==============================================================================
-# FATEC Taquaritinga - ADS | Lógica de Programação
-# Aula 12 - Atividade 6: Distância Horizontal de uma Escada com Cosseno
-# ==============================================================================
-
-# 1. IMPORTAÇÃO DA BIBLIOTECA:
-# Importa math para converter ângulos e calcular o cosseno.
+# ==========================================
+# Atividade 06 - Aula 12: Seno e Coseno usando a biblioteca math.
+# Descrição: Crie um programa que solicite ao operador o comprimento da escada em metros e o ângulo de inclinação em relação ao chão (em graus). Converta o ângulo para radianos com math.radians() e, utilizando a função math.cos(), calcule a distância horizontal do pé da escada até a parede.
+# ==========================================
 import math
 
-# 2. ENTRADA DE DADOS:
-# Lê o comprimento da escada e seu ângulo de inclinação em graus.
+# 1. Entrada dos Dados:
 comprimento_escada = float(input("Informe o comprimento da escada em metros: "))
 angulo_grau = float(input("Informe o angulo de inclinação da escada em relaçao ao chão em graus: "))
 
-# 3. PROCESSAMENTO TRIGONOMÉTRICO:
-# Converte o ângulo para radianos e calcula a distância horizontal.
+# 2. Processamento: 
 angulo_rad = math.radians(angulo_grau)
 distancia = comprimento_escada * math.cos(angulo_rad)
 
-# 4. SAÍDA FORMATADA:
-# Exibe a distância horizontal calculada.
+# 3. Saída: 
 print('-' * 30)
-print(f"A distância horizontal do pé da escada até a parede é de: {distancia:.2f} metros.\n")
+print(f"A distância horizontal do pé da escada até a parede é de: {distancia:.2f} metros.\n") # esse \n é apenas para visualização ficar melhor no terminal.

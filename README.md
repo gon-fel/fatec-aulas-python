@@ -6,42 +6,17 @@ Repositório dedicado ao armazenamento, versionamento e documentação dos algor
 
 Os scripts estão agrupados em pastas pelo número da aula:
 
-### [Aula 1](./aula1/)
-- [aula1.py](./aula1/aula1.py)
-
-### [Aula 3](./aula3/)
-- [atividade01_aula3.py](./aula3/atividade01_aula3.py)
-- [atividade02_aula3.py](./aula3/atividade02_aula3.py)
-- [atividade03_aula3.py](./aula3/atividade03_aula3.py)
-- [atividade04_aula3.py](./aula3/atividade04_aula3.py)
-
-### [Aula 4](./aula4/)
-- [atividade01_aula4.py](./aula4/atividade01_aula4.py)
-- [atividade02_aula4.py](./aula4/atividade02_aula4.py)
-- [atividade03_aula4.py](./aula4/atividade03_aula4.py)
-
-### [Aula 6](./aula6/)
-- [atividade01_aula6.py](./aula6/atividade01_aula6.py)
-- [atividade02_aula6.py](./aula6/atividade02_aula6.py)
-- [atividade03_aula6.py](./aula6/atividade03_aula6.py)
-- [atividade04_aula6.py](./aula6/atividade04_aula6.py)
-
-### [Aula 7](./aula7/)
-- [atividade01_aula7.py](./aula7/atividade01_aula7.py)
-- [atividade02_aula07.py](./aula7/atividade02_aula07.py)
-- [atividade03_aula7.py](./aula7/atividade03_aula7.py)
-- [atividade04_aula7.py](./aula7/atividade04_aula7.py)
-- [atividade05_aula7.py](./aula7/atividade05_aula7.py)
-- [atividade06_aula7.py](./aula7/atividade06_aula7.py)
-
-### [Aula 12](./aula12/)
-- [atividade01_aula12.py](./aula12/atividade01_aula12.py)
-- [atividade02_aula12.py](./aula12/atividade02_aula12.py)
-- [atividade03_aula12.py](./aula12/atividade03_aula12.py)
-- [atividade04_aula12.py](./aula12/atividade04_aula12.py)
-- [atividade05_aula12.py](./aula12/atividade05_aula12.py)
-- [atividade06_aula12.py](./aula12/atividade06_aula12.py)
-- [atividade07_aula12.py](./aula12/atividade07_aula12.py)
+- [Aula 1](./aula1/) — introdução, entrada e saída
+- [Aula 3](./aula3/)
+- [Aula 4](./aula4/)
+- [Aula 6](./aula6/)
+- [Aula 7](./aula7/)
+- [Aula 9](./aula9/)
+- [Aula 10](./aula10/)
+- [Aula 11](./aula11/)
+- [Aula 12](./aula12/)
+- [Aula 13](./aula13/)
+- [Aula 14](./aula14/)
 
 ## Como Executar os Scripts
 

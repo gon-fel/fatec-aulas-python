@@ -1,20 +1,16 @@
-# ==============================================================================
-# FATEC Taquaritinga - ADS | Lógica de Programação
-# Aula 7 - Atividade 4: Conceito Escolar por Faixa de Nota
-# ==============================================================================
+# ==========================================
+# Atividade 04 - Aula 07: Conceito de Nota Escolar
+# Descrição: Atribui um conceito conceitual com base em intervalos de notas.
+# ==========================================
 
-# 1. APRESENTAÇÃO DO EXERCÍCIO:
-# Exibe o título antes de solicitar a nota.
 print("=" * 30)
 print("Conceito de Nota Escolar")
 print("=" * 30)
 
-# 2. ENTRADA DE DADOS:
-# Lê a nota como número decimal.
+# 1. Entrada de dado
 nota = float(input("Informe sua nota: "))
 
-# 3. PROCESSAMENTO CONDICIONAL:
-# Compara a nota com os intervalos definidos para cada conceito.
+# 2. Estrutura Condicional com operadores lógicos (and)
 if nota <= 3.0:
     conceito = "Conceito F"
 elif nota >= 3.0 and nota <= 4.5:
@@ -26,6 +22,5 @@ elif nota >= 7.0 and nota <= 8.5:
 else:
     conceito = "Conceito A"
 
-# 4. SAÍDA DE DADOS:
-# Exibe o conceito selecionado.
+# 3. Saída dos Dados
 print(conceito)
