@@ -22,29 +22,44 @@ montante final e o lucro obtido (montante - valor_aplicado). Ao escolher
 "2", encerre o laço com uma mensagem de despedida.
 '''
 
+# Função para calcular o rendimento do investimento 
 import math
 def calcular_rendimento (valor_aplicado, meses):
-    montante = valor_aplicado * math.pow(1 + 0.012, meses)
+    montante = valor_aplicado * math.pow(1 + 0.012, meses) # montante recebe math.pow(1 + 0,012, meses) 1 = 100% do valor aplicado + 1,2% (0.012) de juros elevado ao número de meses aplicado, portanto o cálculo seria (1 + 0.012)**meses.
 
-    valor_final = round(montante, 2)
+    valor_final = round(montante, 2) # arredondamento do valor para 2 casas decimais.
 
     return valor_final
+
+
 
 print('\n --- MENU DE OPÇÕES ---')
 print('[1] Simular novo investimento')
 print('[2] Encerrar simulador')
 
 menu = int(input('Escolha uma opção: '))
-while menu != 2:
-    
-    valor_investimento = float(input('Informe o valor do aporte: R$'))
-    meses = int(input('Informe a quantidade de meses: '))
+while menu != 2: # início do laço de repetição lógico.
 
-    aplicacao = calcular_rendimento(valor_investimento, meses)
+    if menu == 1: # Estrutura condicional para validar a escolha do usuário, caso tenha escolhido um número diferente de "1 ou 2", o else mostrar um erro, garantindo que o programa continue rodando.
+        valor_investimento = float(input('Informe o valor do aporte: R$'))
+        meses = int(input('Informe a quantidade de meses: '))
+
+        aplicacao = calcular_rendimento(valor_investimento, meses)
+        print(f"Montante final: R${aplicacao:.2f}")
+    
+        lucro = aplicacao - valor_investimento
+
+        print(f"Juros acumulados: R${lucro:.2f}")
+
+    else:
+        print("Opção errada!")
+
 
     print('\n --- MENU DE OPÇÕES ---')
     print('[1] Simular novo investimento')
     print('[2] Encerrar simulador')
     menu = int(input('Escolha uma opção: '))
 
-    print(aplicacao)
+print("Simulador encerrado.")
+
+ 

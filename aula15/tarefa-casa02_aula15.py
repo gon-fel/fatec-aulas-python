@@ -49,7 +49,7 @@ fatura = float(input('Informe o consumo de energia em kWh: '))
 
 
 total = calcular_fatura_energia(fatura, bandeira)
-print(f'\nO valor total a pagar é: R$ {total}')
+print(f'\nO valor total a pagar é: R$ {total:.2f}')
 
 
 
